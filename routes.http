@@ -1,0 +1,11 @@
+# @name create-user
+POST http://localhost:8080/users/
+Content-Type: application/json
+
+{
+  "name": "Rodrigo Mendes Brocchi",
+  "username": "rbrocchi",
+  "password": "123456"
+}
+
+###
