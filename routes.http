@@ -9,3 +9,19 @@ Content-Type: application/json
 }
 
 ###
+
+# @name create-task
+POST http://localhost:8080/tasks/
+Content-Type: application/json
+Authorization: Basic rbrocchi:123456
+
+{
+  "description": "Task test",
+  "priority": "high",
+  "title": "Create task test",
+  "idUser": "7b23be96-fc19-481f-9847-8fa856997bea",
+  "startAt": "2023-10-11T12:00:00",
+  "endAt": "2023-10-15T12:00:00"
+}
+
+###
