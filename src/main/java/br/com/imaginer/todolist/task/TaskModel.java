@@ -36,4 +36,13 @@ public class TaskModel {
   @UpdateTimestamp
   private LocalDateTime updatedAt;
 
+  public void setTitle(String title) throws Exception {
+    if (title.length() > 50) {
+      throw new Exception("You are only allowed to register one title and a maximum of 50 characters.");
+    }
+
+    this.title = title;
+
+  }
+
 }

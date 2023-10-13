@@ -18,7 +18,7 @@ Authorization: Basic rbrocchi:123456
 {
   "description": "Task test",
   "priority": "high",
-  "title": "Create task test",
+  "title": "Create task",
   "startedAt": "2023-10-13T12:00:00",
   "endAt": "2023-10-13T15:00:00"
 }
@@ -33,7 +33,7 @@ Authorization: Basic rbrocchi:123456
 ###
 
 # @name update-task
-PUT http://localhost:8080/tasks/d132da87-b68e-408a-a5fd-ea4ed48dd78a
+PUT http://localhost:8080/tasks/dcf59694-d25e-4ddc-b0c0-ef5d00ba18e1
 Content-Type: application/json
 Authorization: Basic rbrocchi:123456
 
