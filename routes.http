@@ -19,8 +19,27 @@ Authorization: Basic rbrocchi:123456
   "description": "Task test",
   "priority": "high",
   "title": "Create task test",
-  "startedAt": "2023-10-11T12:00:00",
-  "endAt": "2023-10-15T12:00:00"
+  "startedAt": "2023-10-13T12:00:00",
+  "endAt": "2023-10-13T15:00:00"
+}
+
+###
+
+# @name list-tasks
+GET http://localhost:8080/tasks/
+Content-Type: application/json
+Authorization: Basic rbrocchi:123456
+
+###
+
+# @name update-task
+PUT http://localhost:8080/tasks/d36d6c32-4fb0-4802-93b6-644fcb5348ea
+Content-Type: application/json
+Authorization: Basic rbrocchi:123456
+
+{
+  "description": "Task test",
+  "priority": "low"
 }
 
 ###
