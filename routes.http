@@ -19,8 +19,7 @@ Authorization: Basic rbrocchi:123456
   "description": "Task test",
   "priority": "high",
   "title": "Create task test",
-  "idUser": "7b23be96-fc19-481f-9847-8fa856997bea",
-  "startAt": "2023-10-11T12:00:00",
+  "startedAt": "2023-10-11T12:00:00",
   "endAt": "2023-10-15T12:00:00"
 }
 
