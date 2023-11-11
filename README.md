@@ -10,7 +10,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | :fire: Desafio     | https://github.com/brocchirodrigo/java-todolist
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/brocchirodrigo.png#vitrinedev)
+![](https://public.imaginer.com.br/images/RodrigoBrocchiDeveloper.png#vitrinedev)
 
 ## Detalhes do projeto
 
